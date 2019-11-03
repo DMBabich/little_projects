@@ -58,7 +58,6 @@ def computer():
 
     for i in range(1, gen + 1):
         mass.append(i)
-    #print(mass)
     low = 0
     high = len(mass) - 1
 
