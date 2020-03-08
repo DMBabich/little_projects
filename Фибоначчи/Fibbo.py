@@ -59,9 +59,6 @@ def fibbo_even_pos():
     if position < 0:
         print('Да ты шооо')
         return print('Try again')
-    if position < 0:
-        print('Да ты шооо')
-        return print('Try again')
     start = [0, 1]
     even_summ = 0
     for i in range(2, position + 1):
