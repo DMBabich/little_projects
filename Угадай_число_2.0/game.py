@@ -21,6 +21,7 @@ def play():
             step += 1
             continue
         else:
+            step += 1
             print('Браво!'
                   'Было загаданно именно {}\n'.format(comp_num))
             print('Вы сделали {} шагов'.format(step))
